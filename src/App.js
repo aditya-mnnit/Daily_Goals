@@ -1,25 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Header from './components/Header';
+import Comp1 from './components/Comp1';
+// import { BrowserRouter,Route, Routes } from 'react-router-dom';
+// import About from './components/About';
+// import Contact from './components/Contact';
+// import Footer from './components/Footer';
+// import Tasks from './components/Tasks';
+// function Newcom(props)
+// {
+//   return (
+    
+//     <div className={props.cn}>
+//       Hello I am {props.name} . My income is {props.income}.
+//       <hr></hr>
+//     </div>
+//   );
+// }
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <BrowserRouter>
+    <div>
+ <Header/>
+ <Comp1></Comp1>
     </div>
-  );
+     
+     
+      // <Routes>
+      //   <Route path="/" element={<Comp1/>}/>
+      //   <Route path="/about" element={<About/>}/> 
+      //   <Route path="/contact" element={<Contact/>}/>
+      // </Routes>
+      // <Footer/>    
+      
+    
+    // </BrowserRouter>
+    );
+//     <div>
+//        <Header></Header>
+//        <Header1></Header1>  
+//        <Comp1></Comp1> 
+//        <div>
+//     Hello Guys
+//    </div>
+//    <Newcom name ="Adii" cn="cl1" income="50000"></Newcom>
+//    <Newcom name="Piyush" cn="cl2" income="70000"></Newcom>
+//    <Newcom name="Kavya" cn="cl3" income="990000"></Newcom>
+//     </div>
+  
+  
+  
 }
 
 export default App;
